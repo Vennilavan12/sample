@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo "Hello"
                 // Get some code from a GitHub repository
               //  git 'https://github.com/Vennilavan12/sample.git'
 
